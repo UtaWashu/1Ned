@@ -1,6 +1,7 @@
 Задача:
 1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 Рещение:
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -19,6 +20,7 @@ public:
 Задача:
 9.Given an integer x, return true if x is a palindrome, and false otherwise.
 Решение:
+
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -41,6 +43,7 @@ public:
 Задача:
 66.You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's. Increment the large integer by one and return the resulting array of digits.
 Решение:
+
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
