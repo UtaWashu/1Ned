@@ -1,7 +1,7 @@
 1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 Рещение:
 
-class Solution {
+//class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> m;
@@ -14,7 +14,7 @@ public:
             m[x] = i;
         }
     }
-};
+};//
 
 Задача:
 9.Given an integer x, return true if x is a palindrome, and false otherwise.
