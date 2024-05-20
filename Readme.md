@@ -1,7 +1,7 @@
-1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-Рещение:
-
-//class Solution {
+**1. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.**
+**Рещение:**
+```cpp
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> m;
@@ -14,12 +14,12 @@ public:
             m[x] = i;
         }
     }
-};//
-
-Задача:
-9.Given an integer x, return true if x is a palindrome, and false otherwise.
-Решение:
-
+};
+```
+**Задача:**
+**9.Given an integer x, return true if x is a palindrome, and false otherwise.**
+**Решение:**
+```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -38,11 +38,11 @@ public:
         return x == reverse;
     }
 };
-
-Задача:
-66.You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's. Increment the large integer by one and return the resulting array of digits.
-Решение:
-
+```
+**Задача:**
+**66.You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's. Increment the large integer by one and return the resulting array of digits.**
+**Решение:**
+```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -61,3 +61,4 @@ public:
         return digits;
     }
 };
+```
